@@ -1,0 +1,46 @@
+<ion-view view-title="CALCULADORA">
+  <ion-content>
+
+
+  	<section>
+  		
+  	
+	  	<div class="row-fluid soma">
+	  		<h4>FAÇA UMA SOMA SIMPLES</h2>
+	  	</div>
+
+	  
+	  		
+	  	
+	  	<div class="container-fluid">
+
+	  		<div class="row r1">
+	  			<h1 class="total" ng-if="v1 && v2"> Total: {{ v1 + v2 }}</h1>
+	  		</div>
+
+	  		<div class="row r2">
+	  			<div class="col-fluid">
+				 <label class="item item-input">
+				    <input type="number" placeholder="PRIMEIRO VALOR" ng-model="v1">
+				 </label>
+				</div>
+
+				<div class="col-fluid">
+					 <label class="item item-input">  
+					    <input type="number" placeholder="SEGUNDO VALOR" ng-model="v2">
+					  </label>
+				</div>
+	  		</div>
+	  		
+	  	</div>
+
+	  	
+
+		<div class="bar bar-footer">
+	  		<div class="title"></div>
+		</div>
+
+	</section>
+
+  </ion-content>
+</ion-view>

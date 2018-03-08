@@ -1,1 +1,69 @@
 /* Empty. Add your own CSS if you like */
+
+section{
+	overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+.soma{
+	text-align: center;
+	background-color: #9370DB;
+	width: auto auto;
+}
+
+h4{
+	color: white;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin: 0;
+}
+
+.container-fluid{
+	width: 100%;
+	height: 100%;
+}
+
+.r1{
+	width: 100%;
+	height: 50%;
+	background-color: white;
+	justify-content: center;
+}
+
+.r2{
+	width: 100%;
+	height: 50%;
+	background-color: #9370DB;
+	justify-content: center;
+}
+
+.total{
+	color: #9370DB;
+	position: relative;
+	top: 50%
+}
+
+input{
+	text-align: center;
+	justify-content: center;
+}
+
+.item{
+	position: relative;
+	top: 40%;
+}
+
+.bar-footer{
+	background-color: white;
+	position: fixed-bottom;
+}
+
+.item-body{
+	text-align: center;
+}
+
+.scroll-content{
+	background-color: #9370DB;
+}
+
